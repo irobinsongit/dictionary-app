@@ -17,6 +17,7 @@ function App() {
           <a
             href="https://github.com/irobinsongit/dictionary-app"
             target="_blank"
+            rel="noreferrer"
           >
             open sourced
           </a>
