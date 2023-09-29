@@ -1,14 +1,23 @@
-.App-logo {
+.App .App-logo {
   max-width: 200px;
   display: block;
   margin: 0 auto;
 }
 
-.App-header {
+.App .App-header {
   margin: 20px 0;
 }
-
-.App-footer {
+.App .App-footer {
   text-align: center;
   font-size: 15px;
+}
+
+body {
+  background-color: white;
+}
+
+.App a {
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
 }

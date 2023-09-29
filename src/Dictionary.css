@@ -1,5 +1,35 @@
-.Form {
+.Dictionary .Form {
   text-align: center;
   display: block;
   margin: 0 auto;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  margin: 30px 90px;
+  border: 1px solid #ddd;
+}
+
+.Dictionary input {
+  width: 86%;
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+.Dictionary .Title {
+  letter-spacing: 0.4rem;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.Dictionary .Subheader {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 40px;
 }

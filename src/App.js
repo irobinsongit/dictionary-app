@@ -10,8 +10,10 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="vulture" />
         </main>
+        <br />
+        <br />
         <footer className="App-footer">
           Coded by Izzy and this code is{" "}
           <a
