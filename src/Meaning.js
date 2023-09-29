@@ -7,19 +7,17 @@ export default function Meaning(props) {
       <h3>{props.meaning.partOfSpeech}</h3>
 
       {props.meaning.definitions.map(function (definition, index) {
-        if (index <= 1) {
-          return (
-            <div key={index}>
-              <span>
-                <strong>Definition: </strong> {definition.definition}
-                <br />
-                <strong>Example: </strong>
-                <em>{definition.example}</em>
-                <Synonyms synonyms={definition.synonyms} />
-              </span>
-            </div>
-          );
-        }
+        return (
+          <div key={index}>
+            <span>
+              <strong>Definition: </strong> {definition.definition}
+              <br />
+              <strong>Example: </strong>
+              <em>{definition.example}</em>
+              <Synonyms synonyms={definition.synonyms} />
+            </span>
+          </div>
+        );
       })}
     </div>
   );
