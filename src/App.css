@@ -21,3 +21,8 @@ body {
   opacity: 0.5;
   text-decoration: none;
 }
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
