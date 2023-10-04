@@ -16,7 +16,7 @@ body {
   background-color: white;
 }
 
-.App a {
+.App .App-link {
   color: black;
   opacity: 0.5;
   text-decoration: none;

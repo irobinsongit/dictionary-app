@@ -17,6 +17,7 @@ function App() {
         <footer className="App-footer">
           Coded by Izzy and this code is{" "}
           <a
+            className="App-link"
             href="https://github.com/irobinsongit/dictionary-app"
             target="_blank"
             rel="noreferrer"
